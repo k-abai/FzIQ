@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/logo.png" width="180" alt="FzIQ Logo" />
+</p>
+
 # ⚡ FzIQ — Decentralized Experiential Training for Physical AI
 
 > **Hypothesis:** Experiential weights — derived from direct physical interaction and failure — are orders of magnitude more information-dense than linguistic weights derived from textual descriptions of equivalent physical knowledge.
@@ -223,6 +227,14 @@ opBNB gas costs are ~$0.0001 per transaction, making it economically viable to w
 ## License
 
 MIT — use it, build on it, cite it.
+
+---
+
+## Vibecoded
+
+This system was vibecoded — designed from a research hypothesis, spec'd in natural language, and built with AI assistance. The architecture, smart contract, grading pipeline, federated aggregator, benchmark design, and this README were generated and iterated through conversation with [Perplexity Computer](https://perplexity.ai). The scientific hypothesis, research framing, and direction are human. The code that runs it is a collaboration.
+
+Vibecoding is not a shortcut. It is a new modality for research engineering — one where the bottleneck shifts from implementation to idea quality. FzIQ exists because the idea was worth building, not because someone had six months to write boilerplate.
 
 ---
 
