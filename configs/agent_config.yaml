@@ -1,0 +1,22 @@
+# FzIQ Agent Configuration
+
+model:
+  base: "microsoft/Phi-3-mini-4k-instruct"
+  # Alternative: "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"
+  device: "cuda"           # "cuda" or "cpu"
+  load_in_4bit: false      # Set true for <6GB VRAM
+
+lora:
+  rank: 16
+  alpha: 32
+  dropout: 0.05
+  target_modules: ["q_proj", "v_proj"]
+
+inference:
+  max_new_tokens: 512
+  temperature: 0.1
+  do_sample: false
+
+agent:
+  id: null                 # auto-generated UUID if null
+  scenarios_per_day: 50    # target scenarios to process per day

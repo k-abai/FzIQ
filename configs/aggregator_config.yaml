@@ -1,0 +1,20 @@
+# FzIQ Aggregator Configuration
+
+aggregation:
+  interval_hours: 24
+  min_gradients_per_round: 5
+  learning_rate: 0.0001
+
+weighting:
+  # weight = (1 - score) * reliability
+  # Low score → model was very wrong → bigger update
+  default_agent_reliability: 0.5
+
+chain:
+  network: "opbnbTestnet"     # "opbnbTestnet" or "opbnbMainnet"
+  dry_run: false              # set true to skip actual transactions
+
+persistence:
+  gradient_log: "data/gradient_log.jsonl"
+  value_function: "data/td_value_function.json"
+  checkpoint_dir: "metamodel/checkpoints"

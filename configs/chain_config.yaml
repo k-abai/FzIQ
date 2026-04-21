@@ -1,0 +1,18 @@
+# FzIQ opBNB Chain Configuration
+
+testnet:
+  rpc_url: "https://opbnb-testnet-rpc.bnbchain.org"
+  chain_id: 5611
+  explorer: "https://opbnb-testnet.bscscan.com"
+
+mainnet:
+  rpc_url: "https://opbnb-mainnet-rpc.bnbchain.org"
+  chain_id: 204
+  explorer: "https://opbnb.bscscan.com"
+
+gas:
+  price_gwei: 1
+  limit: 500000
+  # Est. cost per round: ~$0.0001 USD on opBNB mainnet
+
+score_scale: 10000   # scores stored as uint256 * 1e4

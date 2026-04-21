@@ -1,0 +1,38 @@
+# FzIQ Requirements
+# Isaac Lab must be installed separately: https://isaac-sim.github.io/IsaacLab/
+
+# PyTorch
+torch==2.7.0
+torchvision==0.22.0
+
+# Transformers & Fine-tuning
+transformers==4.40.0
+peft==0.10.0          # LoRA
+accelerate==0.29.0
+datasets==2.19.0
+trl==0.8.6            # SFT trainer
+
+# Sentence embeddings (CNN verifier text encoder)
+sentence-transformers==2.7.0
+
+# Web (human grader UI)
+flask==3.0.3
+flask-sqlalchemy==3.1.1
+
+# Blockchain
+web3==6.18.0
+eth-account==0.11.0
+
+# Scientific
+numpy==1.26.4
+scipy==1.13.0
+matplotlib==3.8.4
+pandas==2.2.2
+scikit-learn==1.4.2
+
+# Utilities
+pyyaml==6.0.1
+python-dotenv==1.0.1
+tqdm==4.66.2
+wandb==0.16.6         # experiment tracking
+pytest==8.1.1

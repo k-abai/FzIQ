@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+venv/
+env/
+.env
+
+# Model weights (large files)
+metamodel/checkpoints/
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Data
+data/grades.db
+data/*.jsonl
+
+# Node
+node_modules/
+contracts/artifacts/
+contracts/cache/
+
+# Misc
+.DS_Store
+*.log
+results/
+wandb/
