@@ -232,7 +232,7 @@ MIT — use it, build on it, cite it.
 
 ## Vibecoded
 
-This system was vibecoded — designed from a research hypothesis, spec'd in natural language, and built with AI assistance. The architecture, smart contract, grading pipeline, federated aggregator, benchmark design, and this README were generated and iterated through conversation with [Perplexity Computer](https://perplexity.ai). The scientific hypothesis, research framing, and direction are human. The code that runs it is a collaboration.
+This system was vibecoded — designed from a research hypothesis, spec'd in natural language, and built with AI assistance. The architecture, smart contract, grading pipeline, federated aggregator, benchmark design, and this README were generated and iterated through conversation with AI and finetuned by human intuition. The scientific hypothesis, research framing, and direction are human. The code that runs it is a collaboration.
 
 Vibecoding is not a shortcut. It is a new modality for research engineering — one where the bottleneck shifts from implementation to idea quality. FzIQ exists because the idea was worth building, not because someone had six months to write boilerplate.
 
